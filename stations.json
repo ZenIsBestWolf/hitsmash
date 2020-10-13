@@ -1,0 +1,18 @@
+{
+    "main": {
+        "name": "OnlyHit",
+        "url": "onlyhitus"
+    },
+    "gold": {
+        "name": "OnlyHit Gold",
+        "url": "onlyhitgold"
+    },
+    "japan": {
+        "name": "OnlyHit Japan",
+        "url": "onlyhitjapan"
+    },
+    "kpop": {
+        "name": "OnlyHit K-Pop",
+        "url": "onlyhitkpop"
+    }
+}

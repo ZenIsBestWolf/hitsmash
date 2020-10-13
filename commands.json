@@ -1,0 +1,16 @@
+{
+    "play": {
+        "args": {
+            "count": 1,
+            "val": "station"
+        },
+        "info": "Plays selected station of OnlyHit."
+    },
+    "join": {
+        "args": {
+            "count": 0,
+            "val": "null"
+        },
+        "info": "Join your voice channel."
+    }
+}
