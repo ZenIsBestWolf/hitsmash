@@ -38,9 +38,12 @@ client.on('message', async message => {
             break;
 
         case "stop":
-            //console.log(message.guild);
             if (message.guild.voice.channel == undefined) message.reply("I'm not in a channel!");
             else message.guild.voice.channel.leave();
+            break;
+        
+        case "info":
+            message.reply("OnlyHit can be found here: https://onlyhit.us/. I am developed by Zen#0004 and my repository exists at https://github.com/ZenIsBestWolf/hitsmash.");
             break;
 
         default:
