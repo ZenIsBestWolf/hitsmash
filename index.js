@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ disableMentions: "everyone", partials: ['MESSAGE', 'REACTION'] });
 const prefix = "?";
-const token = "NzY1MzY0NTMzMTM2OTgyMDY3.X4TvRA.ReTk1D0sfXsm8UE1BPKaYsgqjuc";
+const token = require("./token.json");;
 const srcURL = "https://radio.streemlion.com/onlyhitjapan";
 
 client.on('ready', () => {
@@ -23,4 +23,4 @@ client.on('message', async message => {
     };
 });
 
-client.login(token);
+client.login(token.token);
