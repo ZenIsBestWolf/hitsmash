@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ disableMentions: "everyone", partials: ['MESSAGE'] });
 const prefix = "hs!";
-const token = require("./token.json");
+//const token = require("./token.json");
 const stations = require("./stations.json"); // List of Stations
 const commands = require("./commands.json");
 const urlScheme = "https://radio.streemlion.com/";

@@ -2,9 +2,13 @@
   "name": "hitsmash",
   "version": "1.0.0",
   "description": "Open source and multi channel alternative to OnlyHit's Discord bot.",
+  "engins": {
+    "node": "12.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
