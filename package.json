@@ -2,13 +2,9 @@
   "name": "hitsmash",
   "version": "1.0.0",
   "description": "Open source and multi channel alternative to OnlyHit's Discord bot.",
-  "engins": {
-    "node": "12.x"
-  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,8 +17,7 @@
   },
   "homepage": "https://github.com/ZenIsBestWolf/hitsmash#readme",
   "dependencies": {
-    "@discordjs/opus": "github:discordjs/opus",
-    "node-pre-gyp": "^0.15.0",
+    "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.3.1",
     "ffmpeg-static": "^4.2.7"
   }
