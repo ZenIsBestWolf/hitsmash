@@ -1,23 +1,30 @@
 {
     "station": {
-        "args": {
-            "count": 1,
-            "values": [
-                "station"
-            ]
-        },
+        "args": "station",
         "info": "Plays selected station of OnlyHit."
     },
     "stop": {
-        "args": {},
         "info": "Stops playing and disconnects."
     },
     "info": {
-        "args": {},
         "info": "Gives info on the bot & OnlyHit."
     },
     "invite": {
-        "args": {},
         "info": "Sends an invite to use to invite HitSmash to your server."
+    },
+    "help": {
+        "info": "Sends this very help message."
+    },
+    "play": {
+        "info": "alias"
+    },
+    "stations": {
+        "info": "Lists all stations."
+    },
+    "disconnect": {
+        "info": "alias"
+    },
+    "fuckoff": {
+        "info": "alias"
     }
 }
