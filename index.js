@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ disableMentions: "everyone", partials: ['MESSAGE'] });
 const prefix = "hs!";
-//const token = require("./token.json");
 const stations = require("./stations.json"); // List of Stations
 const commands = require("./commands.json");
 const urlScheme = "https://radio.streemlion.com/";
@@ -66,7 +65,6 @@ client.on('message', async message => {
             } catch (error) {
                 message.reply("I am not in a channel!")
             }
-            //message.guild.voice.channel.leave()
             break;
         
         case "info":
@@ -74,7 +72,7 @@ client.on('message', async message => {
             break;
 
         case "invite":
-            message.reply("https://discord.com/oauth2/authorize?client_id=765364533136982067&scope=bot&permissions=34606080");
+            message.reply("You can invite me with this link: https://discord.com/oauth2/authorize?client_id=765937777220255765&scope=bot&permissions=34606080");
             break;
         
         case "stations":
