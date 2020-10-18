@@ -1,5 +1,7 @@
 # HitSmash
 
+**Prefix:** ``hs!``
+
 Open source and multi channel alternative to OnlyHit's Discord bot.
 
 This bot adds the 3 other OnlyHit stations to Discord. This bot is also Open Source.
