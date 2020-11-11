@@ -7,7 +7,7 @@ const client = new Discord.Client({
 const prefix = "hs!";
 const stations = require("./stations.json"); // List of Stations
 const commands = require("./commands.json");
-const urlScheme = "https://radio.streemlion.com/";
+const urlScheme = ["https://",".onlyhit.us/play"];
 
 // Setup status for bot.
 client.on('ready', () => {
@@ -70,7 +70,7 @@ client.on('message', async message => {
 			if (tripwire) return;
 
 			message.reply("Tuning to station **" + station["name"] + "**");
-			connection.play(urlScheme + station["url"]);
+			connection.play(urlScheme[0] + station["url"] + urlScheme[1]);
 			break;
 
 		case "disconnect":
