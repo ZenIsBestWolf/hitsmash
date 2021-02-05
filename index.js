@@ -43,8 +43,9 @@ client.on('message', async message => {
 				tbsHelp += "**" + prefix + Object.keys(commands)[i];
 				let tempvar = localcmd["args"]; // See comment on line #32
 				if (!(tempvar === undefined)) {
-					tbsHelp += " [" + tempvar + "]" + "**: " + localcmd["info"] + "\n";
+					tbsHelp += " [" + tempvar + "]";
 				};
+				tbsHelp += "**: " + localcmd["info"] + "\n";
 			};
 			message.channel.send(tbsHelp);
 			break;
