@@ -85,7 +85,7 @@ client.on('message', async message => {
 			break;
 
 		case "info":
-			message.reply("OnlyHit can be found here: https://onlyhit.us/. I am developed by Zen#0004 and my repository exists at https://github.com/ZenIsBestWolf/hitsmash.");
+			message.reply("OnlyHit can be found here: https://onlyhit.us/. I am developed by Zen#0001 and my repository exists at https://github.com/ZenIsBestWolf/hitsmash.");
 			break;
 
 		case "invite":
